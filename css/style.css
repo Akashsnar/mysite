@@ -1,0 +1,128 @@
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 100px 10px 0px 10px;
+}
+
+.middle-container {
+    padding: 100px;
+    /* background: url(https://www.sliderrevolution.com/wp-content/uploads/2021/09/sliderrevolution-blog-image-1.gif); */
+    /* background-color: #66BFBF; */
+    /* display: inline-block; */
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px 10px 20px 10px;
+    /* display: inline-block; */
+}
+
+body {
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 4.625rem;
+    margin-top: 0%;
+    padding: 0%;
+    line-height: 2px;
+    /* width: 10%; */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    color: #40514E;
+    line-height: 2;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+.upper-cloud {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+a {
+    color: #11999E;
+}
+
+
+/* a:hover {
+    color: hotpink;
+} */
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+hr {
+    width: 5%;
+    border-top: 6px dotted #cccccc;
+    margin: 100px auto 100px auto;
+}
+
+.btn {
+    color: #ffffff;
+    background: #11cdd4;
+    border-radius: 8px;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    padding: 10px 20px 10px 20px;
+    /* padding: 200px auto 2px auto; */
+    background-color: #66BFBF
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.id {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 20px 0;
+}
